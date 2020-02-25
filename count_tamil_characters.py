@@ -1,5 +1,9 @@
+#in tamil, the alphabets are catagorized in 3 types as Vallinam, Mellinam and Idaiyinam
+#linguistics research proves that Vallinam are the most used and Mellinam are the least used characters. 
+#Idaiyinam characters count is always between Vallinam and Mellinam counts
+#study by researchers, proves that this structure is has not changed from Ancient Tamil text to modern newspapers
 list={}
-f=open("1.txt", encoding="utf8")
+f=open("1.txt", encoding="utf8") #1.txt is the name of the file; add the path and filename
 t=f.read()
 for i in t:
     try:
